@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* scroll-behavior: smooth; Rolagem da página suaaaaaaaaaaaaaaaave/
+    list-style: none; / REMOVA OS ESTILOS DA LISTA "AS BOLINHAS DO UL"*/
+    text-decoration: none;
+}
+
+body {
+    max-height: 100dvh;
+    width: 100dvw;
+    background-color: var(--color1);
+}
+
+:root {
+    --color1: #eefcfa;
+    --color2: #008060;
+    --color3: #014c3e;
+    --color4: #177a75;
+    --color5: #757c7d;
+    --color6: #1e2324;
+}
+
+#navs-menu {
+    background-color: chartreuse;
+}
+
+#logo-menu {
+    background-color: #333333;
+    width: 40dvw;
+}
+
+#logo-menu > img {
+    width: 150px;
+}
+
+.menu-info {
+    background-color: rgb(255, 127, 232);
+}
+
+#info-login {
+    background-color: aqua;
+    width: 40dvw;
+}
+#menu {
+    background-color: burlywood;
+}
